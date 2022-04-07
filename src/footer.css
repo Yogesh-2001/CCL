@@ -1,0 +1,25 @@
+.footer_section {
+    display: flex;
+    margin-top: 1rem;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.footer_heading {
+    color: white;
+}
+
+.footer_lists {
+    list-style: none;
+    border: none;
+}
+
+.footer_list {
+    color: white;
+    line-height: 1.6rem;
+}
+
+.footer_list a {
+    text-decoration: none;
+}

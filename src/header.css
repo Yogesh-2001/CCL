@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Teko:wght@300&family=Varela+Round&display=swap');
+
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+
+.img_container{
+  background-color: black;
+}
+
+img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 5px;
+  opacity: 0.4;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.carousel_caption {
+  top: 12%;
+  left: 7% !important;
+  right: 0 ;
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255) !important;
+  text-align: left !important;
+}
+
+.carousel_caption h3{
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width:420px){
+  .carousel_caption h3{
+  font-size: 2rem;
+  }
+  p{
+    font-size: 20px;
+  }
+}

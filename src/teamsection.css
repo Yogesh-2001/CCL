@@ -1,0 +1,79 @@
+
+.TeamSection{
+    margin: 2rem 0 2rem 0;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #818385;
+}
+
+.heading h5{
+    font-size: 2rem;
+}
+
+.CardGroup{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card{
+    /* min-height: 200px !important; */
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+.card_body{
+    text-align: center;
+    display: block;
+}
+
+.cardImg{
+    height: 20rem;
+    opacity: 1;
+}
+
+.social_icon{
+    width: 90%;
+    position: absolute;
+    top: 18rem;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: 5s ease;
+    transition: 500ms; 
+    opacity: 0;
+}
+
+.social_icon li{
+    font-size: 2rem;
+    margin: 0 0.7rem 0 0.7rem;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.card :hover + .social_icon{
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    opacity: 1;
+    z-index: 3;
+}
+
+.social_icon:hover{
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    opacity: 1;
+    z-index: 3;
+}
